@@ -1,0 +1,210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Chewbacca_Number",
+            "request": "launch",
+            "mainClass": "Chewbacca_Number",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Any_To_Any",
+            "request": "launch",
+            "mainClass": "Any_To_Any",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToBinary",
+            "request": "launch",
+            "mainClass": "DecimalToBinary",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Boston_Number",
+            "request": "launch",
+            "mainClass": "Boston_Number",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Shopping_Game",
+            "request": "launch",
+            "mainClass": "Shopping_Game",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Odd_Even",
+            "request": "launch",
+            "mainClass": "Odd_Even",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Print_Armstrong_Number_In_Range",
+            "request": "launch",
+            "mainClass": "Print_Armstrong_Number_In_Range",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong_Number",
+            "request": "launch",
+            "mainClass": "Armstrong_Number",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Simple_input",
+            "request": "launch",
+            "mainClass": "Simple_input",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Code_to_Take_infinite_Input",
+            "request": "launch",
+            "mainClass": "Code_to_Take_infinite_Input",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "print_series",
+            "request": "launch",
+            "mainClass": "print_series",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Replace_All_Zero_With_5",
+            "request": "launch",
+            "mainClass": "Replace_All_Zero_With_5",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "SumOfOddAndEvenPlaces",
+            "request": "launch",
+            "mainClass": "SumOfOddAndEvenPlaces",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "count_of_digits",
+            "request": "launch",
+            "mainClass": "count_of_digits",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Fohrenheit_To_Celcius",
+            "request": "launch",
+            "mainClass": "Fohrenheit_To_Celcius",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "LCM_of_two",
+            "request": "launch",
+            "mainClass": "LCM_of_two",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "BinaryToDecimal",
+            "request": "launch",
+            "mainClass": "BinaryToDecimal",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "ReverseOfNumber",
+            "request": "launch",
+            "mainClass": "ReverseOfNumber",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "Nth_term_fabanocci",
+            "request": "launch",
+            "mainClass": "Nth_term_fabanocci",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "inverse_of_Number",
+            "request": "launch",
+            "mainClass": "inverse_of_Number",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "HCF_GCD",
+            "request": "launch",
+            "mainClass": "HCF_GCD",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrime",
+            "request": "launch",
+            "mainClass": "CheckPrime",
+            "projectName": "Assignment2.java_b89060f5"
+        },
+        {
+            "type": "java",
+            "name": "PatternMagic",
+            "request": "launch",
+            "mainClass": "PatternMagic",
+            "projectName": "Assignment.java_923a05d9"
+        },
+        {
+            "type": "java",
+            "name": "PatternwithZero",
+            "request": "launch",
+            "mainClass": "PatternwithZero",
+            "projectName": "Assignment.java_923a05d9"
+        },
+        {
+            "type": "java",
+            "name": "PatternRhombus",
+            "request": "launch",
+            "mainClass": "PatternRhombus",
+            "projectName": "Assignment.java_923a05d9"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MirrorStarPattern",
+            "request": "launch",
+            "mainClass": "MirrorStarPattern",
+            "projectName": "Assignment.java_923a05d9"
+        },
+        {
+            "type": "java",
+            "name": "NumberLadder",
+            "request": "launch",
+            "mainClass": "NumberLadder",
+            "projectName": "Assignment.java_923a05d9"
+        },
+        {
+            "type": "java",
+            "name": "PatternTriangle",
+            "request": "launch",
+            "mainClass": "PatternTriangle",
+            "projectName": "Assignment.java_923a05d9"
+        }
+    ]
+}

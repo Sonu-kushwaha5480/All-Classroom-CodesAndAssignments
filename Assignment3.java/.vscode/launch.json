@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Alex_goeas_Shopping",
+            "request": "launch",
+            "mainClass": "Alex_goeas_Shopping",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "max_circular_Sum",
+            "request": "launch",
+            "mainClass": "max_circular_Sum",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "CalculateTheSum",
+            "request": "launch",
+            "mainClass": "CalculateTheSum",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Majority_Element",
+            "request": "launch",
+            "mainClass": "Majority_Element",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "vonNeuman",
+            "request": "launch",
+            "mainClass": "vonNeuman",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Pair_Of_Rose",
+            "request": "launch",
+            "mainClass": "Pair_Of_Rose",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Bubble_sort",
+            "request": "launch",
+            "mainClass": "Bubble_sort",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Finding_Tripplet",
+            "request": "launch",
+            "mainClass": "Finding_Tripplet",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Help_Ramu",
+            "request": "launch",
+            "mainClass": "Help_Ramu",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Insertion_Sort",
+            "request": "launch",
+            "mainClass": "Insertion_Sort",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "InverseOfArray",
+            "request": "launch",
+            "mainClass": "InverseOfArray",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Max_Value_In_Array",
+            "request": "launch",
+            "mainClass": "Max_Value_In_Array",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Pair_Sum",
+            "request": "launch",
+            "mainClass": "Pair_Sum",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfArrayExceptSelf",
+            "request": "launch",
+            "mainClass": "ProductOfArrayExceptSelf",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Rain_water_Tapping",
+            "request": "launch",
+            "mainClass": "Rain_water_Tapping",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "ReverseOfArray",
+            "request": "launch",
+            "mainClass": "ReverseOfArray",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Running_Sum",
+            "request": "launch",
+            "mainClass": "Running_Sum",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Sort_Severity_level",
+            "request": "launch",
+            "mainClass": "Sort_Severity_level",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Sort_zeros_And_Ones",
+            "request": "launch",
+            "mainClass": "Sort_zeros_And_Ones",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "Squares_Of_Sorted_Array",
+            "request": "launch",
+            "mainClass": "Squares_Of_Sorted_Array",
+            "projectName": "Assignment3.java_ba453994"
+        },
+        {
+            "type": "java",
+            "name": "selection_sort_array",
+            "request": "launch",
+            "mainClass": "selection_sort_array",
+            "projectName": "Assignment3.java_ba453994"
+        }
+    ]
+}
