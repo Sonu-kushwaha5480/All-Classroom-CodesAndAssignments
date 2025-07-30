@@ -1,36 +1,31 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MurthalParantha {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-		int t=sc.nextInt();
-		while (t-- > 0) {
-            int nob = sc.nextInt();
-            int nos = sc.nextInt();
-            int arr[] = new int[nob];
-            for (int i = 0; i < nob; i++) {
-                arr[i] = sc.nextInt();
-            }
-
-            int ans = binarysearch(arr, nob, nos);
-            System.out.println(ans);
+        Scanner sc= new Scanner(System.in);
+        long paratha = sc.nextLong();
+        int cook = sc.nextInt();
+        int arr[]= new int[cook];
+        for(int i=0; i<arr.length;i++){
+            arr[i]= sc.nextInt();
         }
-	}
-
-	public static int binarysearch(int[] arr, int nob, int nos) {
-		int lo = arr[0];
-		int hi=0;
-        for (int i = 0; i < arr.length; i++) {
-            hi += arr[i];
-            if (arr[i] > lo) {
-            lo = arr[i]; // get the max element as starting low
-            }
+        long ans= minTimeNeeded(arr, paratha, cook);
+        System.out.println(ans);
     }
-		int ans = 0;
+    public static long minTimeNeeded(int[] arr , long paratha, int cook) {
+		int maxRank = Arrays.stream(arr).max().getAsInt();
+        long lo=0;
+        // long hi = (long) maxRank * paratha * (paratha + 1) / 2;
+		long hi= Integer.MAX_VALUE;
+        // for(int i=0; i<arr.length; i++){
+        //     hi+= arr[i];
+        // }
+        long ans = 0;
 		while(lo<=hi) {
-			int mid = (lo+hi)/2;
+			long mid = lo + (hi-lo)/2;
 			
-			if(isitPossible(mid,arr,nob,nos)) {
+			if(isitPossible(mid,arr, paratha)) {
 				ans = mid;
 				hi= mid-1;
 			}
@@ -43,23 +38,24 @@ public class MurthalParantha {
 		
 	}
 
-	public static boolean isitPossible(int mid, int[] arr, int nob, int nos) {
-		int s =1;
-		int pages_read = 0;
-		
-		for (int i = 0; i < arr.length; ) {
-			if(pages_read + arr[i] <=mid) {
-				pages_read+= arr[i];
-				i++;
+	public static boolean isitPossible(long mid, int[] arr, long nop) {
+		long count = 0;
+        for (int i = 0; i < arr.length; i++) {
+            int rank = arr[i];
+            long t = 0;
+            long time = 0;
+            for (int p = 1; ; p++) {
+                time += (long) rank * p;
+                if (time > mid) {
+					break;
+				}
+                t++;
+            }
+            count += t;
+            if (count >= nop) {
+				return true;
 			}
-			else {
-				s++;
-				pages_read = 0;
-			}
-			if(s>nos) {
-				return false;
-			}
-		}
-		return true;
-    }
+        }
+        return false;
+	}
 }
