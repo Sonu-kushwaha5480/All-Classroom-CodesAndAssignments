@@ -14,13 +14,7 @@ public class PiyushAndMagicalPark {
                 arr[i][j] = sc.next().charAt(0);
             }
         }
-        for(int i=0; i<arr.length;i++){
-            for(int j=0; j<arr[0].length;j++){
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
-        int ans= calculateStrength(arr,s);
+        int ans= calculateStrength(arr,s,k);
         if (ans>=k) {
             System.out.println("Yes");
             System.out.print(ans);
@@ -29,7 +23,7 @@ public class PiyushAndMagicalPark {
         }
 
     }
-    public static int calculateStrength(char[][] arr, int s) {
+    public static int calculateStrength(char[][] arr, int s, int k) {
         int sumStrength=s;
         for(int i=0; i<arr.length; i++){
             for(int j=0; j<arr[0].length; j++){
@@ -43,8 +37,8 @@ public class PiyushAndMagicalPark {
                 if (j != arr[0].length - 1) {
                 sumStrength--;
                 }
-                if (sumStrength < 0) {
-                return 0;
+                if (sumStrength < k) {
+                return -1;
                 }
             }
         }
